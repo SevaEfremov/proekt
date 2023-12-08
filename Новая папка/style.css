@@ -1,0 +1,71 @@
+@import url(root.css);
+
+/* *{
+   margin: 0;
+   padding: 0;
+} */
+body {
+   background: linear-gradient(0deg, rgb(114, 0, 149), #00298a);
+   font-family: Arial, sans-serif;
+   overflow-y: hidden;
+}
+/*HEADER*/
+.header-cont{
+   width: 100%;
+   height: 70px;
+   background-color: var(--base-color);
+   /* border-bottom: 3px solid #fff; */
+   box-shadow: 0px 0px 5px 0px #fff;
+}
+.header-icon{
+   width: 50px;
+   height: 50px;
+}
+/*/HEADER/*/
+   /*MAIN*/
+   .container{
+      height: 92vh;
+      background-color: var(--base-color);
+   }
+   h1 {
+      text-align: center;
+   }
+
+   .form-group {
+      margin-bottom: 10px;
+   }
+  
+   .form-group label,
+   .form-group input {
+      display: block;
+      width: 100%;
+   }
+  
+   .form-group label {
+      font-weight: bold;
+   }
+  
+   #expense-list {
+      margin-top: 20px;
+      border-collapse: collapse;
+      width: 100%;
+   }
+  
+   #expense-list th,
+   #expense-list td {
+      padding: 8px;
+      border-bottom: 1px solid #fff;
+      text-align: left;
+   }
+  
+   #expense-list th {
+      background-color: var(--input-color);
+   }
+  
+   .total-expense {
+      text-align: right;
+      font-weight: bold;
+   }
+   /*/MAIN/*/
+/*FOOTER*/
+/*/FOOTER/*/
